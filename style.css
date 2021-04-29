@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+  margin: 0em;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 1.8em;
+	color: #001104;
+}
+
+a {
+  color: #295939;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+article {
+  align-content: center;
+  text-align: center;
+}
+
+
+header {
+  padding: 2em;
+  text-align: center;
+  background-image: url('./images/fondheader.jpg');
+  background-size: cover;
+  background-position: fixed;
+  color: white;
+}
+
+header section {
+  margin: 1em auto;
+  max-width: 640px;
+}
+
+header img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 1em 0;
+}
+
+h3, h2{
+ text-transform: uppercase;
+}
+
+
+h3, h4, h2{
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+}
+h3 {
+margin-bottom: 50px;}
+
+h1, h4 {
+color: #295939;
+font-family: century gothic
+}
+
+h6 {
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 1.8em;
+  color: #001104;
+  font-weight: bolder
+}
+
+.container{
+margin:0px;
+align-items: center;}
+
+.img-logo {
+	max-width: 100px;
+  padding-bottom: 15px auto;
+}
+
+.card-white{
+	background-color: rgba(255,255,255,0.5);
+	margin-bottom: 50px;
+	padding: 40px;
+	box-shadow:0 15px 35px rgba(50,50,90,0.1);
+	border-radius: 5px;
+	max-width: 945px;
+
+}
+
+.Card-small, .card-small-green{
+  display: inline-block;
+  box-shadow:0 15px 35px rgba(50,50,90,0.1);
+  border-radius: 5px;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 212px;
+  text-align: center;
+}
+
+
+.content {
+  margin: 20px auto;
+  max-width: 945px;
+  text-align: center;
+}
+
+.text-center{
+  text-align: center;
+  display: center;
+}
+
+.text-center ul {
+text-align: center;
+}
+
+.card-small-green:hover {
+background-color: rgba(41, 89, 57, 0.9);
+}
+.card-small-green {
+background-color: rgba(171,214,179,0.8);
+}
+.card-small-green h5{
+font-family: century gothic;
+color: white;
+font-size: 22px;
+font-weight: bold;
+}
+.card-small-green p{
+  color: white;
+}
+.card-small-green h2 {
+  color:white;
+}
+
+.fab {
+  border: 1px solid white;
+  border-radius: 50%;
+  font-size: 1.5em;
+  width: 1.5em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 5px;
+  text-align: center;
+}
+
+a .fab {
+  color: white;
+}
+
+.title{
+	 font-weight: bolder;
+	font-size: 18px;
+	font-family: century gothic;}
+
+
+.parcours, .competences {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.parcours .title {
+  -ms-flex: 0 0 39.5%;
+  flex: 0 0 39.5%;
+}
+
+.parcours .descrition {
+  -ms-flex: 0 0 60%;
+  flex: 0 0 60%;
+  font-weight: bolder;
+}
+
+.parcours .descrition p {
+  padding-left: 1em;
+  padding-top: 1em
+}
+
+.parcours:hover h4 {
+  font-size: 26px;
+}
+.parcours:hover p{
+  font-size:20px;
+}
+.parcours:hover {
+  background-color: rgba(171,214,179,0.5);
+}
+
+.section-box {
+	border-radius: 5px;
+	padding: 30px;
+}
+ .column-2{
+  -ms-flex: 0 0 50%%;
+  flex: 0 0 50%;
+  max-width: 50%;
+ }
+
+ .column-4 {
+ 	column-count: 2;
+ }
+
+.competences .column-2 ul > li:before {
+  padding-right: 0.7em;
+  padding-left: 0.8em;
+  color: #adeecf;
+  text-align: left;
+}
+
+
+footer {
+ padding: 1em 1.5em;
+ background: rgba(171,214,179,0.5);
+ text-align: center;
+ padding-bottom: 20px;
+}
+
+.footer-element-1, .footer-element-2 {
+display : inline-block;
+}
+
+.footer-element-1 {
+text-align: left;
+}
+.footer-element-2 {
+padding-left: 50px;
+padding-top: 50px;
+}
+
+#image-QR{
+width: 120px;
+}
+
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 920px;
+
+  }
+
+@media (max-width: 850px) {
+  .container {
+    width: 800px;
+  }
+
+@media (max-width: 780px) {
+  .container {
+    width: 750px;
+  }
+@media (max-width: 700px) {
+  .container {
+    width: 650px;
+  }
+
+@media (max-width: 600px) {
+  .container {
+    width: 550px;
+  }
+
+@media (max-width: 540px) {
+  .container {
+    width: 500px;
+  }
+
+
+
+@media (max-width: 960px) {
+  p{
+    font-size: 14px;
+  }
+
+@media (max-width: 850px) {
+ p{
+  font-size:14px;
+  }
+
+@media (max-width: 780px) {
+  p{
+    font-size:12px;
+  }
+@media (max-width: 700px) {
+  p {
+   font-size:12px;
+  }
+
+@media (max-width: 600px) {
+  p {
+     font-size:12px;
+  }
+
+@media (max-width: 540px) {
+  p{
+   font-size:12px;
+  }
+
+
+@media (max-width: 960px) {
+  h2, h3, h4,h5,h6 {
+    font-size: 22px;
+  }
+
+@media (max-width: 850px) {
+ h2, h3, h4,h5,h6{
+  font-size:20px;
+  }
+
+@media (max-width: 780px) {
+  h2, h3, h4,h5,h6{
+    font-size:18px;
+  }
+@media (max-width: 700px) {
+  h2, h3, h4,h5,h6{
+   font-size:16px;
+  }
+
+@media (max-width: 600px) {
+  h2, h3, h4,h5,h6{
+     font-size:15px;
+  }
+
+@media (max-width: 540px) {
+  h2, h3, h4,h5,h6{
+   font-size:15px;
+  }
+
+
+
+@media (max-width: 960px) {
+ .card-small-green h5 {
+    font-size: 22px;
+  }
+
+@media (max-width: 850px) {
+ .card-small-green h5{
+  font-size:20px;
+  }
+
+@media (max-width: 780px) {
+.card-small-green h5{
+    font-size:18px;
+  }
+@media (max-width: 700px) {
+  .card-small-green h5{
+   font-size:16px;
+  }
+
+@media (max-width: 600px) {
+  .card-small-green h5{
+     font-size:15px;
+  }
+
+@media (max-width: 540px) {
+.card-small-green h5{
+   font-size:15px;
+  }
